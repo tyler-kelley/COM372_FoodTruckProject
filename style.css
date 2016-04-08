@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+h1 {
+  font-size: 60px;
+}
+
+#titlebar {
+  width: 90%;
+  float: right;
+  border-bottom: 4px solid black;
+  border-right: solid black;
+  text-align: center;
+  font-family: Rock Salt;
+}
+
+#sidebar {
+  background-color: blue;
+  padding-top: 200px;
+  padding-bottom: 80px;
+  width: 9%;
+  float: right;
+}
+
+#columns {
+  text-align: center;
+  padding-left: 80px;
+}
