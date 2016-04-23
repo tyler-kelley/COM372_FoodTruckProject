@@ -7,7 +7,16 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 65px;
+
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+em {
+  color: #D7CE50
 }
 
 nav {
@@ -15,14 +24,16 @@ nav {
 }
 
 #container {
-  background-color: tan;
+
   width: 88%;
   float: left;
+  text-align: center;
+  background-color: #56B443;
 }
 
 #titlebar {
-  border-bottom: 4px solid black;
-  border-right: solid black;
+  border-bottom: 4px groove #D7CE50;
+
   text-align: center;
   font-family: Rock Salt;
 
@@ -38,17 +49,13 @@ nav {
   width: 12%;
   float: left;
   font-size: 20px;
-  background-image: image(side_pic);
+  background-image: url(Images/tree.jpg);
 }
 
 #nav {
   background-color: transparent;
-  background-image: image(side_pic);
 }
 
-#side_pic {
-  margin-top: -300px;
-}
 
 #TextBox {
 
@@ -73,7 +80,8 @@ padding-bottom: 50px;
 }
 
 #menucontainer {
-
+width: 88%;
+float: left;
 }
 
 #menutitlebar {
@@ -86,21 +94,29 @@ padding-bottom: 50px;
 }
 
 #menutextbox {
-  float: right;
-  width: 91%;
+  float: left;
+  width: 100%;
   text-align: center;
 }
 
 #menusidebar {
+
+  font-family: Rock Salt;
+  font-weight: 200;
   text-align: center;
-  background-color: grey;
-  padding-top: 50px;
-  padding-bottom: 80px;
-  width: 9%;
-  float: right;
+  background-color: transparent;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 12%;
+  float: left;
   font-size: 20px;
+  background-image: url(Images/tree.jpg);
 }
 
+#missioncontainer {
+  width: 88%;
+  float: left;
+}
 
 #missiontitlebar {
   width: 100%;
@@ -113,7 +129,7 @@ padding-bottom: 50px;
 
 #missiontextbox {
   float: right;
-  width: 91%;
+  width: 100%;
   text-align: center;
 }
 
@@ -123,6 +139,6 @@ padding-bottom: 50px;
   padding-top: 50px;
   padding-bottom: 80px;
   width: 9%;
-  float: right;
+  float: left;
   font-size: 20px;
 }
