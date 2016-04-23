@@ -142,7 +142,8 @@ padding-bottom: 50px;
 #missiontitlebar {
   width: 100%;
   float: right;
-  border-bottom: 4px groove #D7CE50;
+  border-bottom: 4px solid black;
+  border-right: solid black;
   text-align: center;
   font-family: Rock Salt;
 }
