@@ -8,7 +8,21 @@ body {
 
 h1 {
   font-size: 65px;
+}
 
+h2 {
+  font-family: Rock Salt;
+}
+
+h3 {
+  font-family: Rock Salt;
+  border-top: 2px dashed black;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+ol {
+  font-weight: bolder;
 }
 
 header {
@@ -41,15 +55,18 @@ nav {
 
 #sidebar {
   font-family: Rock Salt;
-  font-weight: 200;
+  font-weight: 600;
   text-align: center;
   background-color: transparent;
+  color: black;
   padding-top: 300px;
   padding-bottom: 300px;
   width: 12%;
   float: left;
   font-size: 20px;
   background-image: url(Images/tree.jpg);
+  background-position: 0px 0px left;
+  background-size: 100%;
 }
 
 #nav {
@@ -75,13 +92,15 @@ padding-bottom: 50px;
 
   margin-top: 50px;
   padding-top: 50px;
-  border-top: 1px solid black;
+  border-top: 1px dashed black;
   border-top-width: 25%;
 }
 
 #menucontainer {
-width: 88%;
-float: left;
+  width: 88%;
+  float: left;
+  text-align: center;
+  background-color: #56B443
 }
 
 #menutitlebar {
@@ -100,18 +119,20 @@ float: left;
 }
 
 #menusidebar {
-
   font-family: Rock Salt;
-  font-weight: 200;
+  font-weight: 600;
   text-align: center;
   background-color: transparent;
+  color: black;
   padding-top: 300px;
   padding-bottom: 300px;
   width: 12%;
   float: left;
   font-size: 20px;
   background-image: url(Images/tree.jpg);
-}
+  background-position: 0px 0px left;
+  background-size: 100%;
+
 
 #missioncontainer {
   width: 88%;
@@ -121,8 +142,7 @@ float: left;
 #missiontitlebar {
   width: 100%;
   float: right;
-  border-bottom: 4px solid black;
-  border-right: solid black;
+  border-bottom: 4px groove #D7CE50;
   text-align: center;
   font-family: Rock Salt;
 }
@@ -134,11 +154,17 @@ float: left;
 }
 
 #missionsidebar {
+  font-family: Rock Salt;
+  font-weight: 600;
   text-align: center;
-  background-color: grey;
-  padding-top: 50px;
-  padding-bottom: 80px;
-  width: 9%;
+  background-color: transparent;
+  color: black;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 12%;
   float: left;
   font-size: 20px;
+  background-image: url(Images/tree.jpg);
+  background-position: 0px 0px left;
+  background-size: 100%;
 }
